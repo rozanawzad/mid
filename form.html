@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+<form  action="form_handler.php" method="POST">
+	<label>Email:<input type="email" name="email" required></label><br/><br/>
+	<label>Password:<input type="password" name="pwd" required></label>
+	<fieldset>
+		<legend>student geneder:</legend>
+		<label>Male<input type="radio" name="gender"></label>
+		<label>Female<input type="radio" name="gender"></label>
+	</fieldset>
+	<label>pink<input type="checkbox" name="form[]" value="pink"></label>
+	<label>violet<input type="checkbox" name="form[]" value="violet"></label>
+	<label>magenta<input type="checkbox" name="form[]" value="magenta"></label>
+	<br/><input type="submit" name="submit" value="register">
+</form>
+</body>
+</html>
